@@ -1,20 +1,3 @@
-vs code 
-python 3.7
-terminal cmd se ka
-se karna h
-treding for biggners youtube pe dekho
-trading basics for cryptocruncy
-ohlc chart
-terminal
-open, brick
-order book
-green buy
-red buy
-limit to set
-market to set order
-hedge
-
-
 
 GIT BASH CNFIG
 
@@ -35,3 +18,52 @@ enviroment is activated venv
 Ctrl + C to kill the command
 
 https://www.youtube.com/watch?v=SWYqp7iY_Tc /:- Git
+
+1=   git init
+Initialized empty Git repository in C:/Users/Lenovo/Documents/Geeks/.git/
+2=  git config --global user.name 'Aarju'
+
+3= git config --global user.email 'aarjukhicher@gmail.com'
+
+4=  git add test.py
+  add to staging area or track the file without it ,file are untracked
+5=  git status 
+   check the status of the file
+6= git rm --cached test.py 
+   to remove from stagging and untracked
+7=  git add *.py
+    for all py files
+8=  git add .
+    add all the files
+9= 1.1-git commit            or  2- git commit -m 'changed test.py'
+   1.2-press "i" for insert
+   1.3-Initial commit
+   1.4-Esc press butten
+   1.5-":wq"
+10= save the file wo dont want to get added save to .gitognote
+     .gitignore/dir1
+11= git branch array_branch =sub branch
+12= git checkout array_branch= swithch branch
+13= git merge array_branch = to merge the branch
+14= git remote 
+15= git remote add origin https://github.com/aarjukhicher/geeksprogram.git
+    link of repository
+Repository
+
+…or create a new repository on the command line
+echo "# geeksprogram" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/aarjukhicher/geeksprogram.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/aarjukhicher/geeksprogram.git
+git push -u origin master
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+  
+   
