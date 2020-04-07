@@ -1,0 +1,37 @@
+vs code 
+python 3.7
+terminal cmd se ka
+se karna h
+treding for biggners youtube pe dekho
+trading basics for cryptocruncy
+ohlc chart
+terminal
+open, brick
+order book
+green buy
+red buy
+limit to set
+market to set order
+hedge
+
+
+
+GIT BASH CNFIG
+
+cd C:/Users/Lenovo/Documents/inr-market-maker   /:- copy the path from the project
+
+dir  /:-clients  config  log  maker  requirements.txt  script_runner.py  scripts  strategy_runner.py  utils  venv
+
+virtualenv venv  /:-TO create virtual environment for python3.7.7
+
+pip install -r requirements.txt  /:- To install requriments for environment
+
+source ./venv/Scripts/activate  /:- To activate the virtual environment
+
+enviroment is activated venv
+
+#  COINDCX_ACCOUNTS=m.arif4444-main,btc-inr-prod,usdt-inr-prod,eth-inr-prod SCRIPT=playsheet python script_runner.py  /:-run 
+
+Ctrl + C to kill the command
+
+https://www.youtube.com/watch?v=SWYqp7iY_Tc /:- Git
