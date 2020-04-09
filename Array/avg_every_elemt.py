@@ -9,4 +9,4 @@ for i in range(t):
     for j in range(n):
         add=add+a[j]
         avg=int(add/(j+1))
-        print(avg)
+    print(avg)
