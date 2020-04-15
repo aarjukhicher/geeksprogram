@@ -22,7 +22,7 @@ class Linkedlist:
             if(temp.data == key):
                 break
             prev = temp
-            print("prev and temp",prev.data,temp.data)
+            print("prev ",prev.data)
             temp = temp.next
         prev.next = temp.next
         temp = None
