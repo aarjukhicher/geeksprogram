@@ -5,8 +5,10 @@ class Stack:
         self.stack_s.append(data)
         return
     def popstack(self):
+        temp = None
         while(self.stack_s != None):
-            print(self.stack_s.pop())
+            temp = self.stack_s.pop()
+            print(temp)
     
 if __name__=="__main__":
     t = int(input("t "))
