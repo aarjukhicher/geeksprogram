@@ -2,18 +2,19 @@ def searchelement(n,key,array):
     first = 0
     last = n -1
     mid = -1
-    while first < last:
+    while first <= last:
         mid = int((last+first)/2)
-        if array[mid] == key or array[last]== key:
-            if array[mid] ==key:
+        if array[mid] == key or array[first]== key:
+            if array[mid] == key:
                 print(mid)
+                return
             else:
-                print(last)
-            return
+                print(first)
+                return
         elif array[mid] > key:
-            last = mid
+            last = mid - 1
         else:
-            first = mid
+            first = mid + 1
     print(-1)
 
 if __name__=="__main__":
