@@ -15,7 +15,7 @@ def specificsorting(array,n):
             f +=1
         else :
             f = f+1
-            # l = l-1
+            l = l-1
     print("f ",f," l ",l)
     print(array)
 
