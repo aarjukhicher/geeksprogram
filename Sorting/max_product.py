@@ -10,6 +10,7 @@ def maxproduct(array,n):
         array[i] = array[minn]
         array[minn] = temp
     print(array[n-1]*array[n-2])
+    print()
 
 if __name__=="__main__":
     t = int(input("t "))
