@@ -21,7 +21,6 @@ def triplatesum(array,n):
     print()
     for j in range(n):
         x = array[j] * -1
-        print("ASD X ",x," j ",j)
         print(sumisx(array,n,x,j))
         if sumisx(array,n,x,j) == 1:
             return 1
