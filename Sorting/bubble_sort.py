@@ -1,3 +1,4 @@
+
 def bubblesort(array,n):
     for j in range(n):
         k = 0
@@ -6,7 +7,7 @@ def bubblesort(array,n):
                 temp = array[k]
                 array[k] = array[k+1]
                 array[k+1] = temp 
-    print(array)
+    print("bubble ",array)
 if __name__=="__main__":
     t = int(input("t "))
     for i in range(t):
