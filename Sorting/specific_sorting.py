@@ -17,7 +17,27 @@ def specificsorting(array,n):
             f = f+1
             l = l-1
     print("f ",f," l ",l)
-    print(array)
+    print("even odd ",array)
+    if array[l]%2 == 1:
+        l =l+1
+    for k in range(l):
+        j = k+1
+        while j < l :
+            if array[j] > array[k] :
+                temp = array[j]
+                array[j] = array[k]
+                array[k] = temp
+            j += 1
+    while l < n :
+        j = l+1
+        while j < n :
+            if array[j] < array[l]:
+                temp = array[j]
+                array[j] = array[l]
+                array[l] = temp
+            j = j+1
+        l = l+1
+    print("final array ",array)
 
 if __name__=="__main__":
     t = int(input("t "))
