@@ -2,6 +2,7 @@ def stringsort(string):
     s_list = []
     for j in string:
         s_list.append(j)
+    print(s_list)
     for j in range(len(s_list)):
         for k in range(len(s_list)-(j+1)):
             if s_list[k] > s_list[k+1]:
